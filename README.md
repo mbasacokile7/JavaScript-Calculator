@@ -10,4 +10,4 @@ LOL Still needs a bit of work. The UI looks rather crappy. But it works!
 NOTE TO SELF: SLOW AND STEADY WINS EVERYTIME!
 
 
-![alt text](https://github.com/mbasacokile7/JavaScript-Calculator/JS Calculator.PNG?raw=true)
+![alt text](https://github.com/mbasacokile7/JavaScript-Calculator/Calc-UI.PNG?raw=true)
