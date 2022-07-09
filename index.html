@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Calculator WebApp</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="Heading">
+    <p id="clear-display"> </p>
+    <h1 class="heading-el"> Calculator WebApp</h1>
+  </div>
+  <div class="Display-Div">
+    <p id="display-el"></p>
+  </div>
+  <br>
+  <div class="container Numbers">
+    <div class="col-3-sm first-row">
+      <button id="num-7-btn" onclick="numberClicked_7()" >7</button>
+      <button id="num-8-btn" onclick="numberClicked_8()">8</button>
+      <button id="num-9-btn" onclick="numberClicked_9()">9</button>
+      <button id="multiply-btn" onclick="multiply_function()">MUL</button>
+    </div>
+
+    <div class="col-3-sm second-row">
+      <button id="num-4-btn" onclick="numberClicked_4()">4</button>
+      <button id="num-5-btn" onclick="numberClicked_5()">5</button>
+      <button id="num-6-btn" onclick="numberClicked_6()">6</button>
+      <button id="divide-btn" onclick="divide_function()">DIV</button>
+    </div>
+
+    <div class="col-3-sm third-row">
+      <button id="num-1-btn" onclick="numberClicked_1()">1</button>
+      <button id="num-2-btn" onclick="numberClicked_2()">2</button>
+      <button id="num-3-btn" onclick="numberClicked_3()">3</button>
+      <button id="minus-btn" onclick="minus_function()">SUB</button>
+    </div>
+
+    <div class="col-3-sm fourth-row">
+      <button id="num-0-btn" onclick="numberClicked_0()">0</button>
+      <button id="equal-btn" onclick="equal_function()">=</button>
+      <button id="clear-btn" onclick="clear_function()">CLR</button>
+      <button id="add-btn" onclick="add_function()">ADD</button>
+
+    </div>
+
+  </div>
+  <br>
+  <div class="About">
+    <h2 class="heading-el">About Project</h2>
+    <p class="heading-el">This Project was conducted to reinforce learned JavaScript concepts, such as variable definition and assignment, function definition and invoking and finally how to  working with event listeners.
+    I had fun working on it and I hope you enjoy playing with it.</p>
+
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>

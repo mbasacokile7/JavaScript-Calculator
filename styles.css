@@ -1,0 +1,34 @@
+body{
+  text-align: center;
+  background-color: #001824;
+}
+
+.heading-el{
+  color: #889EAF;
+}
+
+.Display-Div{
+  background-color: #889EAF;
+  border-radius: 5px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+
+.display-el{
+  color:#001824;
+  vertical-align: middle;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #001824;
+    background-color: #889EAF;
+    font-weight: bold;
+    width: 50px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
